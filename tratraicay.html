@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    
+    <!-- <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js" integrity="sha512-eP8DK17a+MOcKHXC5Yrqzd8WI5WKh6F1TIk5QZ/8Lbv+8ssblcz7oGC8ZmQ/ZSAPa7ZmsCU4e/hcovqR8jfJqA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.responsive').slick({
+  dots: true,
+  infinite: false,
+  speed: 300,
+  slidesToShow: 4,
+  slidesToScroll: 1,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        infinite: true,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+  ]
+});
+    });
+      
+    </script>
+    <style>
+        body{
+            background-image: url("Images/hinh-nen.jpg") ;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-xl">
+        <!-- header -->
+        <header class="row">
+            <div class="col-md-6">
+              <h1 class="text-center text-md-start text-white">TNV COFFEE</h1>
+              <h6 class="border-top border-3 border-dark d-none d-md-inline-block text-white">SMELL RICH AND WARM AROMA</h6>
+            </div>
+            <div class="col-md-6 text-center text-white text-md-end">
+              <i class="bi bi-envelope m-3"></i>
+              <i class="bi bi-facebook m-3"></i>
+              <i class="fa-brands fa-skype m-3"></i>
+            </div>
+        </header>
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg bg-danger navbar-dark">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html"><i class="bi bi-house-door-fill"></i>Trang chủ</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="tratraicay.html">Trà trái cây</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="trasua.html">Trà sữa</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="caphe.html">Cà phê</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="chocolatesua.html">Chocolate sữa</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="muahang.php">Đặt hàng</a>
+                  </li>
+                </ul>
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a href="" class="nav-link">English</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="" class="nav-link">Tiếng Việt</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <!-- Thực đơn -->
+            <h2 class="mt-3" style="color: blue;">TRÀ TRÁI CÂY</h2>
+            <div class="row mt-3 responsive">
+              <!-- 1 san pham -->
+                <div class="col-lg-3 col-md-4 col-6 w-50">
+                  <div class="card text-center h-100" style="background-color: #58483B;">
+                    <div class="card-header text-bg-success">
+                      Oolong tứ quý dâu trân châu
+                    </div>
+                    <div class="card-body">
+                      <a href=""><img class="w-100" src="Images/Oolong-tu-quy-dau-tran-chau(49000).png"></a>
+                    </div>
+                    <div class="card-footer">
+                      <div class="card-text text-danger fw-bold">
+                        Giá : 49000 đ
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6 w-50">
+                  <div class="card text-center h-100" style="background-color: #58483B;">
+                    <div class="card-header text-bg-success">
+                      Oolong tứ quý vải
+                    </div>
+                    <div class="card-body">
+                      <a href=""><img class="w-100" src="Images/Oolong-tu-quy-vai(49000).png"></a>
+                    </div>
+                    <div class="card-footer">
+                      <div class="card-text text-danger fw-bold">
+                        Giá : 49000 đ
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6 w-50">
+                  <div class="card text-center h-100" style="background-color: #58483B;">
+                    <div class="card-header text-bg-success">
+                      Trà đào cam sả - đá
+                    </div>
+                    <div class="card-body">
+                      <a href=""><img class="w-100" src="Images/Tra-dao-cam-sa-da(49000).png"></a>
+                    </div>
+                    <div class="card-footer">
+                      <div class="card-text text-danger fw-bold">
+                        Giá : 49000 đ
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6 w-50">
+                  <div class="card text-center h-100" style="background-color: #58483B;">
+                    <div class="card-header text-bg-success">
+                      Oolong tứ quý sen
+                    </div>
+                    <div class="card-body">
+                      <a href=""><img class="w-100" src="Images/Oolong-tu-quy-sen(49000).png"></a>
+                    </div>
+                    <div class="card-footer">
+                      <div class="card-text text-danger fw-bold">
+                        Giá : 49000 đ
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6 w-50">
+                  <div class="card text-center h-100" style="background-color: #58483B;">
+                    <div class="card-header text-bg-success">
+                      Oolong tứ quý sen ( Nóng )
+                    </div>
+                    <div class="card-body">
+                      <a href=""><img class="w-100" src="Images/Oolong-tu-quy-sen(Nong).png"></a>
+                    </div>
+                    <div class="card-footer">
+                      <div class="card-text text-danger fw-bold">
+                        Giá : 59000 đ
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6 w-50">
+                  <div class="card text-center h-100" style="background-color: #58483B;">
+                    <div class="card-header text-bg-success">
+                      Trà đào cam sả nóng
+                    </div>
+                    <div class="card-body">
+                      <a href=""><img class="w-100" src="Images/Tra-dao-cam-sa(Nong).png"></a>
+                    </div>
+                    <div class="card-footer">
+                      <div class="card-text text-danger fw-bold">
+                        Giá : 59000 đ
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div> 
+            <footer class="row">
+              <div class="col-md-6 d-flex align-content-end flex-wrap">
+                  <p class="text-bg-warning border border-4 border-success-subtle">
+                    Địa chỉ : 30, đường Võ Liêm Sơn, phường 4, quận 8, thành phố Hồ Chí Minh<br> 
+                    Email liên hệ đặt hàng : vu19892023@gmail.com<br>
+                    Điện thoại di động : 0907240389<br>
+                    Thời gian làm việc : 8 am - 17 pm<br>
+                  </p>
+              </div>
+              <div class="col-md-6 text-center text-md-start">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7839.963948681504!2d106.6714919195514!3d10.735872489739185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752e52c15b2c3b%3A0x2bef5ca8fbf54481!2zMzQgxJAuIFbDtSBMacOqbSBTxqFuLCBQaMaw4budbmcgNCwgUXXhuq1uIDgsIEjhu5MgQ2jDrSBNaW5oLCBWaWV0bmFt!5e0!3m2!1sen!2s!4v1736160855234!5m2!1sen!2s" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+            </footer>     
+    </div>
+</body>
+</html>
